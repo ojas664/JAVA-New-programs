@@ -1,5 +1,7 @@
-public class Main {
-    public static void main(String[] args) {
+public class Main
+{
+    public static void main(String[] args)
+    {
         String name="ojas and ishu";
         String name1="gupta";
         System.out.println(name+" and "+name1);
@@ -9,9 +11,5 @@ public class Main {
         String name2= name1.replace('a','w');
         System.out.println(name.substring(9,13));
         System.out.println(name.substring(5,8));
-
-
-
-
     }
 }
