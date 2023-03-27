@@ -9,19 +9,19 @@ public class switchprob
         int b = sc.nextInt();
         switch(button)
         {
-            case ("add"):
+            case ("+"):
                 System.out.println("addition is:"+(a+b));
             break;
-            case ("sub"):
+            case ("-"):
                 System.out.println("subtraction is:"+(a-b));
                 break;
-            case ("mul"):
+            case ("*"):
                 System.out.println("multiplication is:"+(a*b));
                 break;
-            case ("div"):
+            case ("/"):
                 System.out.println("division is:"+(a/b));
                 break;
-            case ("mod"):
+            case ("%"):
                 System.out.println("modulus is:"+(a%b));
                 break;
             default:
