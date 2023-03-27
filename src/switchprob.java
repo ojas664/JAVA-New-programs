@@ -1,7 +1,7 @@
 import java.util.*;
 public class switchprob
 {
-    // write a program for calculator
+    // write a program for calculator...!!
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String button = sc.nextLine();
@@ -11,7 +11,7 @@ public class switchprob
         {
             case ("+"):
                 System.out.println("addition is:"+(a+b));
-            break;
+                break;
             case ("-"):
                 System.out.println("subtraction is:"+(a-b));
                 break;
@@ -27,9 +27,7 @@ public class switchprob
             default:
                 System.out.println("sorry..!! invalid button..");
 
-
-
-
         }
     }
 }
+
